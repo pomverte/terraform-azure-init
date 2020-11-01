@@ -19,3 +19,4 @@ jobs:
         with:
           quiet: true
           framework: terraform
+          skip_check: CKV_AZURE_33,CKV_AZURE_35
