@@ -1,5 +1,7 @@
 # Terraform Azure init
 
+![Build](https://github.com/pomverte/terraform-azure-init/workflows/Build/badge.svg)
+
 This repository aims to create the minimum necessary infrastructure on Azure
 for Terraform to work with a remote backend.
 
