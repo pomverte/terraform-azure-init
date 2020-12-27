@@ -11,6 +11,7 @@ for Terraform to work with a remote backend.
 
 ```
 az login
+az account list --query "[].{name:name, subscriptionId:id, tenantId:tenantId}"
 ```
 
 OR use an [Azure Service Principal](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_client_secret)
